@@ -22,7 +22,7 @@ import java.io.IOException;
  */
 @EnableTransactionManagement
 @Configuration
-@MapperScan("com.cloud.hq.business.dao")
+@MapperScan("com.cloud.hq.business.mapper")
 public class MybatisPlusConfig {
 
     /**
