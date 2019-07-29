@@ -22,13 +22,13 @@ import java.util.List;
  */
 public class MyBatisGenerator {
 
-    private static String jdbcUrl = "jdbc:mysql://localhost:3306/hq_account?useUnicode=true&useSSL=false&characterEncoding=utf8";
+    private static String jdbcUrl = "jdbc:mysql://127.0.0.1:3306/hq_account?useUnicode=true&useSSL=false&characterEncoding=utf8";
     private static String userName = "root";
     private static String password = "root";
 
-    private static String modelName = "cloud-admin-server";
+    private static String modelName = "cloud-business-server";
     private static String basePackage = "com.cloud.hq.business";
-    private static String tableName = "t_role";
+    private static String tableName = "t_order";
 
     public static void main(String[] args) {
         generator();
